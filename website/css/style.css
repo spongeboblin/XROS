@@ -1,0 +1,86 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.parent-row{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.navbar-material .nav-wrapper .brand-logo img {
+    height: 64px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.underline-text {
+  text-decoration: underline;
+}
+
+.card.extra-small{
+  position: relative;
+}
+
+.card.extra-small .card-image {
+  max-height: 60%;
+  overflow: hidden;
+}
+
+.card.extra-small .card-image + .card-content {
+  max-height: 40%;
+}
+
+.card.extra-small .card-content {
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.card.extra-small .card-action {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.card.extra-small {
+  height: 220px;
+}
+
+ul.browser-default {
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+ul.browser-default li {
+  list-style-type: initial;
+}
+
+.superscript { position: relative; top: -0.5em; font-size: 80%; }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}

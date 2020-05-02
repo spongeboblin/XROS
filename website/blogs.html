@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>XROS - Blogs</title>
+    <link rel="icon" href="misc/USC-Games-logo.png">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- CSS  -->
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/materialize-social.css" type="text/css" rel="stylesheet"/>
+  </head>
+
+  <body style="background-color:#0B0C10;">
+    <main>
+      <!-- Navigation Bar -->
+      <nav class="nav-extended black" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" class="flow-text brand-logo teal-text text-accent-2" href="index.html">XROS</a>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="white-text" href="index.html">Overview</a></li>
+            <li><a class="white-text" href="designdoc.html">Design Doc</a></li>
+            <li><a class="white-text" href="api.html">API</a></li>
+            <li class="active"><a class="white-text" href="blogs.html"><b>Blogs</b></a></li>
+          </ul>
+        </div>
+
+        <div class="nav-content container">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a class="active" href="#2020-spring">2020 Spring Weekly Blogs</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a class="black-text" href="index.html">Overview</a></li>
+        <li><a class="black-text" href="designdoc.html">Design Doc</a></li>
+        <li><a class="black-text" href="api.html">API</a></li>
+        <li><a class="black-text" href="blogs.html"><b>Blogs</b></a></li>
+      </ul>
+
+      <!-- 2020 Spring -->
+      <div id="2020-spring">
+        <div class="container">
+          <div class="section">
+            <div class="row">
+
+              <div class="col s12 m6 l3">
+                <div class="card grey">
+                  <div class="card-content">
+                    <span class="card-title"><h5><a class="white-text" href="log_02_22_20.html">Log 1</a></h5></span>
+                    <ul class="browser-default">
+                      <li class="white-text"><b>[Subsystem 1]</b> The function to track motion and gestures of body (can be extended to head and fingers) is realized by OpenPose.</li>
+                      <li class="white-text"><b>[Subsystem 2]</b> The prefab which enables controller's laser module adjustable to different directions. Direction can be changed by interacting(grab) with right hand controller or pointing and grabbing a specific object in the scene, in the case, the laser will lock on the object which user moves their controller.</li>
+                    </ul>
+                  </div>
+                  <div class="card-action">
+                    <a class="waves-effect waves-light social-icon btn web" href="log_02_22_20.html"><i class="material-icons">web</i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m6 l3">
+                <div class="card orange">
+                  <div class="card-content">
+                    <span class="card-title"><h5><a class="white-text" href="log_02_29_20.html">Log 2</a></h5></span>
+                    <ul class="browser-default">
+                      <li class="white-text"><b>[Subsystem 1]</b> 
+                        <ul class="browser-default">
+                          <li>Measured camera parameters (intrinsic and extrinsic) to use for triangulation</li>
+                          <li>Wrote code to convert 2D body keypoints to 3D keypoints</li>
+                        </ul>
+                      </li>
+                      <li class="white-text"><b>[Subsystem 2]</b> 
+                        <ul class="browser-default">
+                          <li>The prefab which enables controller's laser module adjustable to different directions. Direction can be changed by interacting(grab) with right hand controller or pointing and grabbing a specific object in the scene, in the case, the laser will lock on the object which user moves their controller. The demo video will be updated when gif is uploaded.</li>
+                          <li>The way of adjusting the direction of laser has been changed from angle detect to relative position detect, with a more intuitive user experience. </li>
+                          <li>Laser will be hided when user are grabbing item, in addition, laser direction will not change the direction or position of the item grabbed.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-action">
+                    <a class="waves-effect waves-light social-icon btn web" href="log_02_29_20.html"><i class="material-icons">web</i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m6 l3">
+                <div class="card cyan darken-1">
+                  <div class="card-content">
+                    <span class="card-title"><h5><a class="white-text" href="log_03_07_20.html">Log 3</a></h5></span>
+                    <ul class="browser-default">
+                      <li class="white-text"><b>[Subsystem 1]</b> Published <a class="white-text" href="camera_calibration_instruction.html">an instruction for multi-view camera calibration.</a></li>
+                      <li class="white-text"><b>[Subsystem 2]</b> Published <a class="white-text" href="layer_instruction.html">an instruction for usage of layers in the project.</a></li>
+                    </ul>
+                  </div>
+                  <div class="card-action">
+                    <a class="waves-effect waves-light social-icon btn web" href="log_03_07_20.html"><i class="material-icons">web</i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m6 l3">
+                <div class="card red lighten-1">
+                  <div class="card-content">
+                    <span class="card-title"><h5><a class="white-text" href="log_04_04_20.html">Log 4</a></h5></span>
+                    <ul class="browser-default">
+                      <li class="white-text">Primitive function of adjustment of world scale according to pose is uploaded.</li>
+                      <li class="white-text">Opening door interaction for final project introduction is done.</li>
+                      <li class="white-text">Refine function of controller by adding reset button and switch(on and off)</li>
+                    </ul>
+                  </div>
+                  <div class="card-action">
+                    <a class="waves-effect waves-light social-icon btn web" href="log_04_04_20.html"><i class="material-icons">web</i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m6 l3">
+                <div class="card green darken-1">
+                  <div class="card-content">
+                    <span class="card-title"><h5><a class="white-text" href="log_04_11_20.html">Log 5</a></h5></span>
+                    <ul class="browser-default">
+                      <li class="white-text">The function to measure arm length is uploaded.</li>
+                      <li class="white-text">The XRinVR scene has been added to the project. The basic fade out and in, and teleportation function has been migrated into the new scene. The assets in the new scene are utilized.</li>
+                    </ul>
+                  </div>
+                  <div class="card-action">
+                    <a class="waves-effect waves-light social-icon btn web" href="log_04_11_20.html"><i class="material-icons">web</i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m6 l3">
+                <div class="card lime accent-2">
+                  <div class="card-content">
+                    <span class="card-title"><h5><a class="black-text" href="log_04_18_20.html">Log 6</a></h5></span>
+                    <ul class="browser-default">
+                      <li class="black-text">A calibrated skeleton for better visualization is added into the scene.</li>
+                    </ul>
+                  </div>
+                  <div class="card-action">
+                    <a class="waves-effect waves-light social-icon btn web" href="log_04_18_20.html"><i class="material-icons">web</i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m6 l3">
+                <div class="card light-blue accent-3">
+                  <div class="card-content">
+                    <span class="card-title"><h5><a class="white-text" href="log_04_25_20.html">Log 7</a></h5></span>
+                    <ul class="browser-default">
+                      <li class="white-text">New visualization of calibrated skeleton module is added!</li>
+                    </ul>
+                  </div>
+                  <div class="card-action">
+                    <a class="waves-effect waves-light social-icon btn web" href="log_04_25_20.html"><i class="material-icons">web</i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m6 l3">
+                <div class="card deep-purple lighten-3">
+                  <div class="card-content">
+                    <span class="card-title"><h5><a class="white-text" href="log_05_02_20.html">Log 8</a></h5></span>
+                    <ul class="browser-default">
+                      <li class="white-text">Our <a class="white-text" href="index.html">homepage</a> is published!</li>
+                      <li class="white-text">Function to read skeleton from outside module is added. Now results from <a class="white-text" href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a> can be used to calibrate skeleton!</li>
+                      <li>New feature added in event system. Certain actions will be triggered when user reaches specific phases in event list.</li>
+                      <li>Add Adjustable pointer scenario in the events. Also refined the delay for different events.</li>
+                    </ul>
+                  </div>
+                  <div class="card-action">
+                    <a class="waves-effect waves-light social-icon btn web" href="log_05_02_20.html"><i class="material-icons">web</i></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer black">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="teal-text text-accent-2">XROS Team</h5>
+            <div class="divider"></div>
+            <ul>
+              <li><a class ="white-text" href="https://www.linkedin.com/in/powenyao/">Powen Yao</a></li>
+              <li><a class ="white-text" href="https://github.com/SophieJiangHJ">Huijun Jiang</a></li>
+              <li><a class ="white-text" href="https://corneliushsiao.github.io/">Hanyuan Xiao</a></li>
+              <li><a class ="white-text" href="https://www.linkedin.com/in/hong-liu-0016751a6">Hong Liu</a></li>
+              <li><a class ="white-text" href="https://www.linkedin.com/in/ruoxi-jia/">Ruoxi Jia</a></li>
+              <li><a class ="white-text" href="https://www.linkedin.com/in/feiyu-miao-bba50b179/">Feiyu Miao</a></li>
+              <li><a class ="white-text" href="https://www.linkedin.com/in/hyuckjukim/">Hyuck Ju Kim</a></li>
+              <li><a class ="white-text" href="https://www.linkedin.com/in/csxinyilin/">Xinyi Lin</a></li>
+            </ul>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="teal-text text-accent-2">Home</h5>
+            <div class="divider"></div>
+            <ul>
+              <li><a class ="white-text" href="index.html">Overview</a></li>
+              <li><a class ="white-text" href="designdoc.html">Design Doc</a></li>
+              <li><a class ="white-text" href="api.html">API</a></li>
+              <li><a class ="white-text" href="blogs.html"><b>Blogs</b></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container teal-text text-accent-2">
+        Contents © 2020 XROS Team
+        </div>
+      </div>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+  </body>
+</html>

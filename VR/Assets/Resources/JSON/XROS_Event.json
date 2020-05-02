@@ -1,0 +1,124 @@
+{
+    "Items": [
+        {
+            "TargetText": 0,
+            "content": "Grab your user credentials located in your chest and place it on the lock",
+            "HasPrerequisite": true,
+            "prerequisiteFlagId": "OpenDoor",
+            "secondsToWait": 1
+        },
+        {
+            "TargetText": 0,
+            "content": "You have successfully authenticated!",
+            "HasPrerequisite": false,
+            "prerequisiteFlagId": "",
+            "secondsToWait": 2
+        },
+        {
+            "TargetText": 0,
+            "content": "Reach out to the \"I agree\" button with either controller and use the trigger button to confirm",
+            "HasPrerequisite": true,
+            "prerequisiteFlagId": "AgreedCalibration",
+            "secondsToWait": 1
+        },
+        {
+            "TargetText": 0,
+            "content": "Please follow the instruction on the wall",
+            "HasPrerequisite": true,
+            "prerequisiteFlagId": "FinishedCalibration",
+            "secondsToWait": 0
+        },
+        {
+            "TargetText": 0,
+            "content": "Thank you, you have completed the calibration process, now teleporting you to the 3D input.",
+            "HasPrerequisite": false,
+            "prerequisiteFlagId": "",
+            "secondsToWait": 5
+        },
+        {
+            "TargetText": 0,
+            "content": "Start by grabbing the keyboard with grip button.",
+            "HasPrerequisite": true,
+            "prerequisiteFlagId": "GrabingKeyboard",
+            "secondsToWait": 1
+        },
+        {
+            "TargetText": 0,
+            "content": "Place it at a location that's comfortable for you and push the trigger button to bring up the 3d Keyboard",
+            "HasPrerequisite": true,
+            "prerequisiteFlagId": "TurnOnKeyboard",
+            "secondsToWait": 1
+        },
+        {
+            "TargetText": 0,
+            "content": "Try typing the onscreen text",
+            "HasPrerequisite": true,
+            "prerequisiteFlagId": "TurnOffKeyboard",
+            "secondsToWait": 5
+        },
+        {
+            "TargetText": 0,
+            "content": "Try typing the onscreen text",
+            "HasPrerequisite": false,
+            "prerequisiteFlagId": "",
+            "secondsToWait": 2
+        },
+        {
+            "TargetText": 0,
+            "content": "Days Later...",
+            "HasPrerequisite": false,
+            "prerequisiteFlagId": "",
+            "secondsToWait": 7
+        },
+        {
+            "TargetText": 0,
+            "content": "Grab your file and it's time to go home!",
+            "HasPrerequisite": true,
+            "prerequisiteFlagId": "FileGrabbed",
+            "secondsToWait": 2
+        },
+        {
+            "TargetText": 0,
+            "content": "Grab your file and it's time to go home!",
+            "HasPrerequisite": false,
+            "prerequisiteFlagId": "",
+            "secondsToWait": 2
+        },
+        {
+            "TargetText": 0,
+            "content": "Flip your left controllers, there are several button hidden there.",
+            "HasPrerequisite": false,
+            "prerequisiteFlagId": "",
+            "secondsToWait": 10
+        },
+        {
+            "TargetText": 0,
+            "content": "You can use your controller to grab the emitter in front of the other controller to change the direction of laser, have a try?",
+            "HasPrerequisite": true,
+            "prerequisiteFlagId": "EmitterGrabbed",
+            "secondsToWait": 1
+        },
+        {
+            "TargetText": 0,
+            "content": "You can also point and grab to one of your controller with the other one to change the length of laser",
+            "HasPrerequisite": true,
+            "prerequisiteFlagId": "LaserLengthChanged",
+            "secondsToWait": 1
+        },
+        {
+            "TargetText": 0,
+            "content": "You are almost done. Use the laser of your controller to turn off/on the light by grabbing them, in addition, point to and grab the switch on the wall the turn off/on light all together. ",
+            "HasPrerequisite": true,
+            "prerequisiteFlagId": "SwitchGrabbed",
+            "secondsToWait": 1
+        },
+        {
+            "TargetText": 0,
+            "content": "Thank you!",
+            "HasPrerequisite": true,
+            "prerequisiteFlagId": "LastStep",
+            "secondsToWait": 1
+        }
+        
+    ]
+}

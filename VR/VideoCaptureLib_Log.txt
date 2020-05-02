@@ -1,0 +1,4 @@
+[LOG]: [FFmpegLib]: DEST URL: F:\unity\XR-Interaction-Toolkit-Examples0214\XR-Interaction-Toolkit-Examples\VR\2020-04-08-12-59-00-X9O2Z.mp4
+[LOG]: [FFmpegLib]: Build command: "F:/unity/XR-Interaction-Toolkit-Examples0214/XR-Interaction-Toolkit-Examples/VR/Assets/StreamingAssets/RockVR/FFmpeg/Windows/ffmpeg.exe" -f rawvideo -pix_fmt rgb24 -r 30 -s 1808x2000 -i - -y -preset ultrafast -pix_fmt yuv420p -vcodec libx264 -crf 18 -vf vflip -framerate 30 -tune zerolatency "F:\unity\XR-Interaction-Toolkit-Examples0214\XR-Interaction-Toolkit-Examples\VR\2020-04-08-12-59-00-X9O2Z.mp4"
+[ERROR]: [FFmpegLib]: Failed to CreateProcess
+[ERROR]: [FFmpegLib]: Failed to create ffmpeg process
